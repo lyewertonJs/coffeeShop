@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* TOPO DA PÁG */
+.barra-topo {
+    width: 100%;
+    height: 70px;
+    background-color: #604829;
+
+    position: fixed;
+}
+.barra-topo img {
+    width: 70px;
+
+    position: absolute;
+    left: 60px;
+}
+.nav-topo {
+    position: absolute;
+    right: 60px;
+    top: 17px;
+}
+.nav-topo a {
+    color: #c4a47c;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px black;
+    
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Oswald;
+    
+    padding: 0 5px;
+}
+/* FIM TOPO DA PAG */
+
+
+
+/* BANNER PRINCIPAL */
+.banner-topo {
+    height: 80vh;
+    
+    background-image: url('img/parallax-imagem1.png');
+    background-attachment: fixed;
+    background-position: center bottom;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-topo h1 {
+    color: white;
+    font-size: 100px;
+    font-family: Fraunces;
+    
+    text-shadow: 1px 1px 5px black;
+
+    max-width: 1330px;
+    min-width: 650px;
+}
+/* FIM BANNER PRINCIPAL */
+
+
+
+/* GLOBAL SECTION */
+.section {
+    width: calc(100% - 40px);
+    max-width: 1024px;
+    margin: 10vh auto;
+
+    text-align: center;
+    font-family: Lato;
+}
+.section h2 {
+    color: #c4a47c;
+    font-size: 28px;
+
+    padding: 0;
+    margin-bottom: 30px;
+}
+.section p {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+/* FIM GLOBAL SECTION*/
+
+
+
+/* SECTION BACKGROUND */
+.section-background {
+    height: 30vh;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img1 {
+    background-image: url('img/parallax-imagem2.jpg');
+}
+.img2 {
+    background-image: url('img/parallax-imagem3.jpg');
+}
+.section-background h3 {
+    background-color: #604829;
+    color: white;
+
+    text-align: center;
+    
+    font-size: 30px;
+    font-style: italic;
+
+    width: fit-content;
+    padding: 10px 25px;
+    
+}
+/* FIM SECTION BACKGROUND */
+
+
+
+/* SECTION CONTACT */
+.section-contact {
+    background-image: url('img/parallax-imagem4.png');
+    background-attachment: fixed;
+
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    font-family: Oswald;
+}
+.section-contact h2 {
+    background-color: #604829;
+
+    padding: 5px 50px;
+    margin-bottom: 50px;
+
+    color: white;
+}
+.maps {
+    width: 80%;
+    max-width: 1024px;
+    min-width: 340px;
+}
+.maps iframe {
+    width: 100%;
+}
+.contatos {
+    background-color: #604829;
+
+    padding: 20px 50px;
+    margin-top: 50px;
+
+    color: white;
+
+    text-align: center;
+}
+/* FIM SECTION CONTACT */
+
+
+
+/* SECTION LIST */
+.section-horarios {
+    background-image: url('img/cafeteria.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+
+    height: 90vh;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.section-horarios h2 {
+    font-weight: bold;
+    margin: 30px auto;
+    padding: 30px auto;
+}
+.list {
+    width: 1024px;
+    max-width: 1024px;
+    min-width: 800px;
+}
+.list li {
+    position: relative;
+
+    width: 100%;
+}
+.list li h3 {
+    position: absolute;
+    left: 0;
+}
+.list li p {
+    position: absolute;
+    right: 0;
+}
+.list li div {
+    width: 70%;
+    height: 1px;
+    
+    position: absolute;
+    left: 150px;
+    top: 10px;    
+
+    background-color: rgba(255, 255, 255, 0.568);
+}
+/* FIM SECTION LIST */
+
+
+/* SECTION RODAPE */
+.rodape {
+    background-color: black;
+    color: white;
+    
+    height: 10vh;
+    
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    position: absolute;
+    right: 60px;
+    bottom: 60px;
+}
+/* FIM SECTION RODAPE */
